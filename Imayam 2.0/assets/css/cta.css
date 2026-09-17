@@ -1,0 +1,122 @@
+.cta {
+    background: #fdeef4;
+    padding: 50px 20px
+}
+
+.cta__container {
+    text-align: center;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto
+}
+
+.cta__title {
+    color: #111;
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 800
+}
+
+.cta__subtitle {
+    color: #8a8a8a;
+    max-width: 520px;
+    margin-bottom: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 1.7
+}
+
+.cta__actions {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    display: flex
+}
+
+.cta__btn-primary {
+    color: #fff;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #ff138e;
+    border: none;
+    border-radius: 999px;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 12px 12px 22px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background .25s;
+    display: inline-flex
+}
+
+.cta__btn-primary:hover {
+    background: #e0007c
+}
+
+.cta__btn-primary-arrow {
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    display: flex
+}
+
+.cta__btn-outline {
+    color: #161616;
+    white-space: nowrap;
+    background: #fff;
+    border: 1.5px solid #00000026;
+    border-radius: 999px;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: border-color .25s, color .25s;
+    display: inline-flex
+}
+
+.cta__btn-outline:hover {
+    color: #ff138e;
+    border-color: #ff138e
+}
+
+@media (max-width:640px) {
+    .cta {
+        padding: 40px 20px
+    }
+
+    .cta__title {
+        font-size: 21px
+    }
+
+    .cta__subtitle {
+        font-size: 13.5px
+    }
+}
+
+@media (max-width:460px) {
+    .cta__title {
+        font-size: 18px
+    }
+
+    .cta__actions {
+        flex-direction: column;
+        width: 100%
+    }
+
+    .cta__btn-primary,
+    .cta__btn-outline {
+        justify-content: center;
+        width: 100%
+    }
+}

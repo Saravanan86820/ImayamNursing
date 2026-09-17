@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../assets/css/index.css" data-precedence="next">
+  <link rel="stylesheet" href="../assets/css/booking.css" data-precedence="next">
+  <link rel="stylesheet" href="../assets/css/footer.css" data-precedence="next">
+  <link rel="stylesheet" href="../assets/css/doctor.css" data-precedence="next">
+
+  <meta name="next-size-adjust" content="">
+  <title>Imayam Nursing — Healing Begins at Home</title>
+  <meta name="description"
+    content="Professional home nursing, elderly care, patient attendants, physiotherapy, and doctor home visits delivered at your doorstep across India.">
+  <link rel="icon" href="../assets/images/favicon.png" sizes="256x256" type="image/x-icon">
+
+</head>
+
+
+<body>
+
+  <header class="navbar-wrapper">
+    <div class="navbar-container"><a class="navbar-logo" href="/"><img alt="Imayam Nursing Logo" width="250" height="80"
+          decoding="async" data-nimg="1" style="color:transparent" src="../assets/images/logo/logo.png"></a>
+      <ul class="navbar-menu">
+        <li><a class="" href="./ourservies.html">Our Services</a></li>
+        <li><a class="" href="./aboutus.html">About Us</a></li>
+        <li><a class="" href="./contact.html">Contact Us</a></li>
+      </ul>
+      <div class="navbar-right"><button type="button" class="js-book-btn book-btn"><span>Book Now</span><span
+            class="arrow-circle"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
+              height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+              </path>
+            </svg></span></button><button class="hamburger" aria-label="Open menu"
+          aria-expanded="false"><span></span><span></span><span></span></button></div>
+      <ul class="mobile-menu">
+        <li><a class="" href="/ourservies">Our Services</a></li>
+        <li><a class="" href="/aboutus">About Us</a></li>
+        <li><a class="" href="/contact">Contact Us</a></li>
+        <li class="mobile-menu-book"><button type="button" class="js-book-btn book-btn"><span>Book
+              Now</span><span class="arrow-circle"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                </path>
+              </svg></span></button></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="doctorApp">
+    <div class="loading-state">Loading doctor profile...</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a class="footer__brand-logo" href="/"><img alt="Imayam Nursing Logo" loading="lazy"
+              width="64" height="64" decoding="async" data-nimg="1" style="color:transparent"
+              src="../assets/images/logo/footerlogo.png"></a>
+          <p class="footer__brand-desc">Professional home healthcare services delivered with compassion and
+            excellence. Your health, our priority.</p>
+          <div class="footer__socials"><a href="#" class="footer__social-link" aria-label="Facebook" target="_blank"
+              rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                </path>
+              </svg></a><a href="#" class="footer__social-link" aria-label="Twitter" target="_blank"
+              rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                </path>
+              </svg></a><a href="#" class="footer__social-link" aria-label="LinkedIn" target="_blank"
+              rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                </path>
+              </svg></a><a href="#" class="footer__social-link" aria-label="Instagram" target="_blank"
+              rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                </path>
+              </svg></a></div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Quick Links</h3>
+          <ul class="footer__links">
+            <li><a href="/"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512"
+                  class="footer__link-arrow" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z">
+                  </path>
+                </svg>Home</a></li>
+            <li><a href="aboutus.html"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                  viewBox="0 0 320 512" class="footer__link-arrow" height="1em" width="1em"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z">
+                  </path>
+                </svg>About Us</a></li>
+            <li><a href="ourservies.html"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                  viewBox="0 0 320 512" class="footer__link-arrow" height="1em" width="1em"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z">
+                  </path>
+                </svg>Our Services</a></li>
+            <li><a href="contact.html"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                  viewBox="0 0 320 512" class="footer__link-arrow" height="1em" width="1em"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z">
+                  </path>
+                </svg>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Our Services</h3>
+          <ul class="footer__links footer__links--icons">
+            <li><a href="ourservies.html"><span class="footer__link-icon"><svg stroke="currentColor" fill="currentColor"
+                    stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1l0 50.8c27.6 7.1 48 32.2 48 62l0 40c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l0-24c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 24c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-40c0-29.8 20.4-54.9 48-62l0-57.1c-6-.6-12.1-.9-18.3-.9l-91.4 0c-6.2 0-12.3 .3-18.3 .9l0 65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7l0-59.1zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z">
+                    </path>
+                  </svg></span>Doctor Home Visit</a></li>
+            <li><a href="ourservies.html"><span class="footer__link-icon"><svg stroke="currentColor" fill="currentColor"
+                    stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M160 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM126.5 199.3c-1 .4-1.9 .8-2.9 1.2l-8 3.5c-16.4 7.3-29 21.2-34.7 38.2l-2.6 7.8c-5.6 16.8-23.7 25.8-40.5 20.2s-25.8-23.7-20.2-40.5l2.6-7.8c11.4-34.1 36.6-61.9 69.4-76.5l8-3.5c20.8-9.2 43.3-14 66.1-14c44.6 0 84.8 26.8 101.9 67.9L281 232.7l21.4 10.7c15.8 7.9 22.2 27.1 14.3 42.9s-27.1 22.2-42.9 14.3L247 287.3c-10.3-5.2-18.4-13.8-22.8-24.5l-9.6-23-19.3 65.5 49.5 54c5.4 5.9 9.2 13 11.2 20.8l23 92.1c4.3 17.1-6.1 34.5-23.3 38.8s-34.5-6.1-38.8-23.3l-22-88.1-70.7-77.1c-14.8-16.1-20.3-38.6-14.7-59.7l16.9-63.5zM68.7 398l25-62.4c2.1 3 4.5 5.8 7 8.6l40.7 44.4-14.5 36.2c-2.4 6-6 11.5-10.6 16.1L54.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L68.7 398z">
+                    </path>
+                  </svg></span>Physiotherapy</a></li>
+            <li><a href="ourservies.html"><span class="footer__link-icon"><svg stroke="currentColor" fill="currentColor"
+                    stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M96 128l0-57.8c0-13.3 8.3-25.3 20.8-30l96-36c7.2-2.7 15.2-2.7 22.5 0l96 36c12.5 4.7 20.8 16.6 20.8 30l0 57.8-.3 0c.2 2.6 .3 5.3 .3 8l0 40c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-40c0-2.7 .1-5.4 .3-8l-.3 0zm48 48c0 44.2 35.8 80 80 80s80-35.8 80-80l0-16-160 0 0 16zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7L30.7 512C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6zM208 48l0 16-16 0c-4.4 0-8 3.6-8 8l0 16c0 4.4 3.6 8 8 8l16 0 0 16c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-16 16 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8l-16 0 0-16c0-4.4-3.6-8-8-8l-16 0c-4.4 0-8 3.6-8 8z">
+                    </path>
+                  </svg></span>Home Nursing Care</a></li>
+            <li><a href="ourservies.html"><span class="footer__link-icon"><svg stroke="currentColor" fill="currentColor"
+                    stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M272 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-8 187.3l47.4 57.1c11.3 13.6 31.5 15.5 45.1 4.2s15.5-31.5 4.2-45.1l-73.7-88.9c-18.2-22-45.3-34.7-73.9-34.7l-35.9 0c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9L120 256.9 120 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 16 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-244.7zM352 376c0-4.4 3.6-8 8-8s8 3.6 8 8l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-30.9-25.1-56-56-56s-56 25.1-56 56l0 8c0 13.3 10.7 24 24 24s24-10.7 24-24l0-8z">
+                    </path>
+                  </svg></span>Care Taker</a></li>
+          </ul>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Services Areas</h3>
+          <ul class="footer__links">
+            <li><a style="cursor:default;"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                  viewBox="0 0 320 512" class="footer__link-arrow" height="1em" width="1em"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z">
+                  </path>
+                </svg>Arumbakkam</a></li>
+            <li><a style="cursor:default;"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                  viewBox="0 0 320 512" class="footer__link-arrow" height="1em" width="1em"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z">
+                  </path>
+                </svg>Aminjakarai</a></li>
+            <li><a style="cursor:default;"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                  viewBox="0 0 320 512" class="footer__link-arrow" height="1em" width="1em"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z">
+                  </path>
+                </svg>Anna Nagar</a></li>
+            <li><a style="cursor:default;"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                  viewBox="0 0 320 512" class="footer__link-arrow" height="1em" width="1em"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z">
+                  </path>
+                </svg>T Nagar</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© <!-- -->2026<!-- --> Imayam Nursing Home Care. All Rights Reserved.</p>
+        <nav class="footer__bottom-links"><a href="/privacy">Privacy Policy</a><span
+            class="footer__bottom-sep">|</span><a href="/terms">Terms &amp; Conditions</a><span
+            class="footer__bottom-sep">|</span><a href="/refund">Refund Policy</a></nav>
+        <p class="footer__tagline"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+            class="footer__tagline-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z">
+            </path>
+          </svg>Compassionate Care at Your Doorstep</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="booking-modal__overlay">
+    <div class="booking-modal ">
+      <div class="booking-modal__header"><button type="button" class="booking-modal__close" aria-label="Close"><svg
+            stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1em" width="1em"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z">
+            </path>
+          </svg></button>
+        <div class="booking-modal__header-nurse booking-modal__header-nurse--left"><img alt="" loading="lazy"
+            decoding="async" data-nimg="fill" class="booking-modal__nurse-img" sizes="140px"
+            src="../assets/images/logo/logo.png"
+            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+        <div class="booking-modal__header-content"><img alt="Imayam Nursing" loading="lazy" width="130" height="44"
+            decoding="async" data-nimg="1" class="booking-modal__logo" src="../assets/images/logo/logo.png"
+            style="color: transparent;">
+          <h2 class="booking-modal__title">Book Home Care Services at Home</h2>
+          <p class="booking-modal__subtitle">Please enter your details and we will reach out to you as soon as
+            we can.</p>
+        </div>
+        <div class="booking-modal__header-nurse booking-modal__header-nurse--right"><img alt="" loading="lazy"
+            decoding="async" data-nimg="fill" class="booking-modal__nurse-img" sizes="140px"
+            src="../assets/images/logo/logo.png"
+            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+      </div>
+      <div class="booking-modal__body">
+        <h3 class="booking-modal__section-title">Contact Details</h3>
+        <form class="booking-modal__form">
+          <div class="booking-modal__row">
+            <div class="booking-modal__field"><label for="patientName">Patient's Name <span
+                  class="booking-modal__required">*</span></label><input id="patientName"
+                placeholder="Enter Patient's Name" required="" type="text" value="" name="patientName">
+            </div>
+            <div class="booking-modal__field"><label for="attenderName">Attender's Name <span
+                  class="booking-modal__required">*</span></label><input id="attenderName"
+                placeholder="Enter Patient's Name" required="" type="text" value="" name="attenderName">
+            </div>
+          </div>
+          <div class="booking-modal__row">
+            <div class="booking-modal__field"><label for="patientAge">Patient's age<span
+                  class="booking-modal__required">*</span></label><input id="patientAge" min="0"
+                placeholder="Enter Patient's age" required="" type="number" value="" name="patientAge">
+            </div>
+            <div class="booking-modal__field"><label for="patientGender">Patient's Gender<span
+                  class="booking-modal__required">*</span></label><select id="patientGender" name="patientGender"
+                required="">
+                <option value="" disabled="">Patient's Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select></div>
+          </div>
+          <div class="booking-modal__row">
+            <div class="booking-modal__field"><label for="category">Category of service<span
+                  class="booking-modal__required">*</span></label><select id="category" name="category" required="">
+                <option value="" disabled="">Select Category of service</option>
+                <option value="home-nursing">Home Nursing Care</option>
+                <option value="elderly-care">Elderly Care</option>
+                <option value="physiotherapy">Physiotherapy</option>
+                <option value="patient-attendant">Patient Attendant</option>
+                <option value="doctor-visit">Doctor Home Visit</option>
+              </select></div>
+            <div class="booking-modal__field date-picker"><label for="time">Time<span
+                  class="booking-modal__required">*</span></label><button type="button" id="time"
+                class="date-picker__trigger date-picker__trigger--placeholder" aria-haspopup="dialog"
+                aria-expanded="false">Select Time<svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                  viewBox="0 0 448 512" class="date-picker__chevron " height="1em" width="1em"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                  </path>
+                </svg></button></div>
+          </div>
+          <div class="booking-modal__field booking-modal__field--full"><label for="condition">Patient's
+              condition <span class="booking-modal__required">*</span></label><input id="condition"
+              placeholder="Enter Patient's condition" required="" type="text" value="" name="condition">
+          </div>
+          <div class="booking-modal__row">
+            <div class="booking-modal__field"><label for="mobile">Mobile Number <span
+                  class="booking-modal__required">*</span></label><input id="mobile" placeholder="Enter Mobile Number"
+                required="" type="tel" value="" name="mobile"></div>
+            <div class="booking-modal__field"><label for="email">Email Address <span
+                  class="booking-modal__required">*</span></label><input id="email" placeholder="Enter Email Address"
+                required="" type="email" value="" name="email"></div>
+          </div>
+          <div class="booking-modal__field booking-modal__field--full"><label for="address">Current Address
+              <span class="booking-modal__required">*</span></label><input id="address"
+              placeholder="Enter Current Address" required="" type="text" value="" name="address"></div>
+          <div class="booking-modal__field booking-modal__field--full"><label for="city">City <span
+                class="booking-modal__required">*</span></label><select id="city" name="city" required="">
+              <option value="" disabled="">Service Needed In?</option>
+              <option value="chennai">Chennai</option>
+              <option value="coimbatore">Coimbatore</option>
+              <option value="hyderabad">Hyderabad</option>
+              <option value="bangalore">Bangalore</option>
+            </select></div><label class="booking-modal__checkbox"><input required="" type="checkbox" name="agreed">I
+            Agree TERMS AND CONDITIONS</label>
+          <div class="booking-modal__submit-wrap"><button type="submit" class="booking-modal__submit">Submit<span
+                class="booking-modal__submit-arrow"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                  viewBox="0 0 320 512" height="13" width="13" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z">
+                  </path>
+                </svg></span></button></div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      const bookButtons = document.querySelectorAll(".js-book-btn");
+      const bookingOverlay = document.querySelector(".booking-modal__overlay");
+      const closeButton = document.querySelector(".booking-modal__close");
+
+      if (!bookingOverlay) return;
+
+      // Open booking modal
+      bookButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          bookingOverlay.classList.add("active");
+          document.body.style.overflow = "hidden";
+        });
+      });
+
+      // Close booking modal
+      if (closeButton) {
+        closeButton.addEventListener("click", function () {
+          bookingOverlay.classList.remove("active");
+          document.body.style.overflow = "";
+        });
+      }
+
+      // Close when clicking outside the modal
+      bookingOverlay.addEventListener("click", function (event) {
+        if (event.target === bookingOverlay) {
+          bookingOverlay.classList.remove("active");
+          document.body.style.overflow = "";
+        }
+      });
+
+      // Close with Escape key
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          bookingOverlay.classList.remove("active");
+          document.body.style.overflow = "";
+        }
+      });
+
+    });
+  </script>
+
+  <script>
+    (function () {
+
+      const doctorsData = {
+        "rajesh-kumar": {
+          "name": "Dr. Rajesh Kumar",
+          "role": "Chief Medical Consultant",
+          "photo": "../assets/images/doctor/1.png",
+          "heroImage": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='400' viewBox='0 0 1920 400'%3E%3Crect width='1920' height='400' fill='%23fce4ec'/%3E%3Ctext x='960' y='200' font-family='Arial' font-size='60' fill='%23ffb3d1' text-anchor='middle' opacity='0.3'%3EMedical Background%3C/text%3E%3C/svg%3E",
+          "meta": {
+            "experience": "15+ Years Experience",
+            "education": "MBBS, MD (General Medicine)",
+            "languages": "English, Tamil",
+            "locations": "Anna Nagar, Chennai"
+          },
+          "profileParagraphs": [
+            "Dr. Rajesh Kumar completed his MBBS from Madras Medical College, Chennai. Following which, he underwent training in Internal Medicine at the University Hospital of Hartlepool and obtained MRCP (UK). A career in higher specialist training in Geriatric and Internal Medicine awaited him at the Northern Deanery, University of Newcastle, UK.",
+            "During his training, he gained experience in various specialties of Geriatric Medicine and Internal Medicine at esteemed hospitals including James Cook University Hospital in Middlesbrough, Royal Sunderland Hospitals in Sunderland, University Hospital of North Tees in Stockton, Royal Victoria Hospitals in Newcastle, and Darlington Memorial Hospitals in Darlington.",
+            "After successfully completing his training, Dr. Rajesh was appointed as a Consultant at the University Hospital of Hartlepool, UK in 2005. He joined Apollo Hospitals, Chennai, as a Consultant in 2007 and took the initiative to establish Outpatient Geriatric Services at Westside Clinic, Anna Nagar, in the year 2010.",
+            "Dr. Rajesh's journey has equipped him with valuable skills and expertise in the field of Geriatric Medicine and Internal Medicine and helped him garner training for his professional roles in the UK and in India."
+          ],
+          "columns": {
+            "education": [
+              "MBBS (1995) from prestigious Madras Medical College",
+              "MRCP (UK) (2000) from Royal College of Physicians UK",
+              "UK Board Certification in Internal Medicine",
+              "UK Board Certification in Geriatric Medicine (2005)"
+            ],
+            "experience": [
+              "Specialist Registrar Internal Medicine & Geriatrics, Newcastle UK (2001)",
+              "Consultant Physician & Geriatrician, University Hospital North Tees & Hartlepool UK (2005)",
+              "Consultant Physician & Geriatrician, Apollo Hospitals, Chennai (2007 - Present)"
+            ],
+            "affiliation": [
+              "Indian Academy of Geriatrics (Secretary 2019 - 2022)",
+              "British Geriatrics Society",
+              "Royal College of Physicians, UK"
+            ]
+          }
+        },
+
+        "priya-sharma": {
+          "name": "Dr. Priya Sharma",
+          "role": "Senior Physiotherapist",
+          "photo": "../assets/images/doctor/4.png",
+          "heroImage": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='400' viewBox='0 0 1920 400'%3E%3Crect width='1920' height='400' fill='%23fce4ec'/%3E%3Ctext x='960' y='200' font-family='Arial' font-size='60' fill='%23ffb3d1' text-anchor='middle' opacity='0.3'%3EPhysiotherapy Background%3C/text%3E%3C/svg%3E",
+          "meta": {
+            "experience": "12+ Years Experience",
+            "education": "BPT, MPT",
+            "languages": "English, Hindi, Tamil",
+            "locations": "Anna Nagar, Chennai"
+          },
+          "profileParagraphs": [
+            "Dr. Priya Sharma is a dedicated physiotherapist with over 12 years of experience in helping patients recover from injuries, surgeries, and chronic conditions. She completed her Bachelor of Physiotherapy (BPT) and Master of Physiotherapy (MPT) from prestigious institutions in India.",
+            "She specializes in geriatric physiotherapy, post-operative rehabilitation, and pain management. Her patient-centric approach focuses on personalized treatment plans that address the root cause of movement dysfunctions.",
+            "Dr. Priya has worked with leading hospitals and rehabilitation centers in Chennai, helping thousands of patients regain their mobility and independence. She is committed to providing compassionate care in the comfort of patients' homes."
+          ],
+          "columns": {
+            "education": [
+              "BPT from Sri Ramachandra Medical College, Chennai",
+              "MPT (Orthopedics) from Manipal University",
+              "Certified in Geriatric Physiotherapy",
+              "Advanced Training in Manual Therapy"
+            ],
+            "experience": [
+              "Senior Physiotherapist at Apollo Hospitals, Chennai (2015-2020)",
+              "Consultant Physiotherapist at Fortis Malar Hospital (2020-2023)",
+              "Home Physiotherapy Specialist at Imayam Nursing (2023 - Present)"
+            ],
+            "affiliation": [
+              "Indian Association of Physiotherapists",
+              "Tamil Nadu Physiotherapy Council",
+              "Geriatric Care Society of India"
+            ]
+          }
+        },
+
+        "anitha-joseph": {
+          "name": "Ms. Anitha Joseph",
+          "role": "Senior Nursing Supervisor",
+          "photo": "../assets/images/doctor/3.png",
+          "heroImage": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='400' viewBox='0 0 1920 400'%3E%3Crect width='1920' height='400' fill='%23fce4ec'/%3E%3Ctext x='960' y='200' font-family='Arial' font-size='60' fill='%23ffb3d1' text-anchor='middle' opacity='0.3'%3ENursing Background%3C/text%3E%3C/svg%3E",
+          "meta": {
+            "experience": "10+ Years Experience",
+            "education": "B.Sc Nursing",
+            "languages": "English, Tamil, Malayalam",
+            "locations": "Anna Nagar, Chennai"
+          },
+          "profileParagraphs": [
+            "Ms. Anitha Joseph is a highly experienced nursing professional with over 10 years of dedicated service in home healthcare. She completed her B.Sc Nursing from Christian Medical College, Vellore, and has since been committed to providing compassionate care to patients across Chennai.",
+            "She specializes in post-operative care, elderly nursing, and chronic disease management. Her leadership skills and clinical expertise have made her an invaluable asset to the Imayam Nursing team.",
+            "Anitha oversees a team of skilled nurses and caregivers, ensuring that every patient receives personalized, high-quality care in the comfort of their own home."
+          ],
+          "columns": {
+            "education": [
+              "B.Sc Nursing from Christian Medical College, Vellore (2012)",
+              "Certified in Critical Care Nursing",
+              "Advanced Training in Geriatric Care",
+              "Infection Control Certification"
+            ],
+            "experience": [
+              "Staff Nurse at CMC Vellore (2012-2015)",
+              "Senior Nurse at Apollo Hospitals, Chennai (2015-2019)",
+              "Nursing Supervisor at Imayam Nursing (2019 - Present)"
+            ],
+            "affiliation": [
+              "Tamil Nadu Nurses and Midwives Council",
+              "Indian Nursing Council",
+              "Association of Nurse Executives India"
+            ]
+          }
+        },
+
+        "karthik-subramaniam": {
+          "name": "Dr. Karthik Subramaniam",
+          "role": "Consultant Cardiologist",
+          "photo": "../assets/images/doctor/2.png",
+          "heroImage": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='400' viewBox='0 0 1920 400'%3E%3Crect width='1920' height='400' fill='%23fce4ec'/%3E%3Ctext x='960' y='200' font-family='Arial' font-size='60' fill='%23ffb3d1' text-anchor='middle' opacity='0.3'%3ENursing Background%3C/text%3E%3C/svg%3E",
+          "meta": {
+            "experience": "14+ Years Experience",
+            "education": "MBBS, MD, DM (Cardiology)",
+            "languages": "English, Tamil",
+            "locations": "Adyar, Chennai"
+          },
+          "profileParagraphs": [
+            "Dr. Karthik Subramaniam completed his MBBS and MD in General Medicine before pursuing a DM in Cardiology from a leading institute in India.",
+            "He specializes in managing chronic cardiac conditions for elderly and home-bound patients, working closely with Imayam's home care teams to monitor and manage heart health remotely.",
+            "Karthik regularly conducts home ECG reviews and cardiac risk assessments as part of Imayam's doctor home visit program."
+          ],
+          "columns": {
+            "education": [
+              "MBBS from Madras Medical College, Chennai",
+              "MD (General Medicine) from Stanley Medical College",
+              "DM (Cardiology) from Madras Medical College"
+            ],
+            "experience": [
+              "Consultant Cardiologist, Fortis Malar Hospital, Chennai (2012 - 2020)",
+              "Consultant Cardiologist, Imayam Nursing Services (2020 - Present)"
+            ],
+            "affiliation": [
+              "Cardiological Society of India",
+              "Indian Medical Association"
+            ]
+          }
+        },
+
+        "meera-nair": {
+          "name": "Dr. Meera Nair",
+          "role": "Consultant Pediatrician",
+          "photo": "../assets/images/doctor/3.png",
+          "heroImage": "../assets/images/doctorhero.png",
+          "meta": {
+            "experience": "11+ Years Experience",
+            "education": "MBBS, MD (Pediatrics)",
+            "languages": "English, Tamil, Malayalam",
+            "locations": "Mylapore, Chennai"
+          },
+          "profileParagraphs": [
+            "Dr. Meera Nair completed her MBBS and MD in Pediatrics, and has since focused on newborn and infant care, including home-based baby care programs.",
+            "She works closely with Imayam's baby care team, guiding home nurses on newborn health monitoring, feeding support, and vaccination schedules.",
+            "Meera is known for her gentle, family-centered approach to pediatric care."
+          ],
+          "columns": {
+            "education": [
+              "MBBS from Kilpauk Medical College, Chennai",
+              "MD (Pediatrics) from Madras Medical College"
+            ],
+            "experience": [
+              "Pediatrician, Kanchi Kamakoti CHILDS Trust Hospital (2014 - 2021)",
+              "Consultant Pediatrician, Imayam Nursing Services (2021 - Present)"
+            ],
+            "affiliation": [
+              "Indian Academy of Pediatrics",
+              "Indian Medical Association"
+            ]
+          }
+        },
+
+        "suresh-babu": {
+          "name": "Mr. Suresh Babu",
+          "role": "Senior Patient Attendant Supervisor",
+          "photo": "../assets/images/doctor/1.png",
+          "heroImage": "../assets/images/doctorhero.png",
+          "meta": {
+            "experience": "9+ Years Experience",
+            "education": "Certified Patient Care Attendant",
+            "languages": "English, Tamil",
+            "locations": "Tambaram, Chennai"
+          },
+          "profileParagraphs": [
+            "Mr. Suresh Babu is a certified patient care attendant with extensive experience supporting bed-ridden and post-surgical patients at home.",
+            "He leads Imayam's team of patient attendants, training them in safe patient handling, mobility assistance, and daily care routines.",
+            "Suresh is committed to ensuring dignity and comfort for every patient under his team's care."
+          ],
+          "columns": {
+            "education": [
+              "Certified Patient Care Attendant Program, Red Cross Society",
+              "Basic Life Support (BLS) Certification"
+            ],
+            "experience": [
+              "Patient Attendant, Apollo Hospitals, Chennai (2016 - 2019)",
+              "Senior Patient Attendant Supervisor, Imayam Nursing Services (2019 - Present)"
+            ],
+            "affiliation": [
+              "Red Cross Society, Chennai Chapter"
+            ]
+          }
+        },
+
+        "praveen-kumar": {
+          "name": "Dr. Praveen Kumar",
+          "role": "Chief Medical Consultant",
+          "photo": "../assets/images/doctor/2.png",
+          "heroImage": "../assets/images/doctorhero.png",
+          "meta": {
+            "experience": "15+ Years Experience",
+            "education": "MBBS, MD (General Medicine)",
+            "languages": "English, Tamil",
+            "locations": "Anna Nagar, Chennai"
+          },
+          "profileParagraphs": [
+            "Dr.Praveen Kumar completed his MBBS from Madras Medical College, Chennai.Following which, he underwent training in Internal Medicine at the University Hospital of Hartlepool and obtained MRCP(UK).A career in higher specialist training in Geriatric and Internal Medicine awaited him at the Northern Deanery, University of Newcastle, UK.",
+            "During his training, he gained experience in various specialties of Geriatric Medicine and Internal Medicine at esteemed hospitals including James Cook University Hospital in Middlesbrough, Royal Sunderland Hospitals in Sunderland, University Hospital of North Tees in Stockton, Royal Victoria Hospitals in Newcastle, and Darlington Memorial Hospitals in Darlington.",
+            "After successfully completing his training, Dr.Rajesh was appointed as a Consultant at the University Hospital of Hartlepool, UK in 2005. He joined Apollo Hospitals, Chennai, as a Consultant in 2007 and took the initiative to establish Outpatient Geriatric Services at Westside Clinic, Anna Nagar, in the year 2010.",
+            "Dr.Rajesh's journey has equipped him with valuable skills and expertise in the field of Geriatric Medicine and Internal Medicine and helped him garner training for his professional roles in the UK and in India."
+          ],
+          "columns": {
+            "education": [
+              "MBBS(1995) from prestigious Madras Medical College",
+              "MRCP(UK)(2000) from Royal College of Physicians UK",
+              "UK Board Certification in Internal Medicine",
+              "UK Board Certification in Geriatric Medicine(2005)"
+            ],
+            "experience": [
+              "Specialist Registrar Internal Medicine & Geriatrics, Newcastle UK(2001)",
+              "Consultant Physician & Geriatrician, University Hospital North Tees & Hartlepool UK(2005)",
+              "Consultant Physician & Geriatrician, Apollo Hospitals, Chennai(2007 - Present)"
+            ],
+            "affiliation": [
+              "Indian Academy of Geriatrics(Secretary 2019 - 2022)",
+              "British Geriatrics Society",
+              "Royal College of Physicians, UK"
+            ]
+          }
+        },
+
+        "ranjith-kumar": {
+          "name": "Dr. Ranjith Kumar",
+          "role": "Chief Medical Consultant",
+          "photo": "../assets/images/doctor/1.png",
+          "heroImage": "../assets/images/doctorhero.png",
+          "meta": {
+            "experience": "15+ Years Experience",
+            "education": "MBBS, MD (General Medicine)",
+            "languages": "English, Tamil",
+            "locations": "Anna Nagar, Chennai"
+          },
+          "profileParagraphs": [
+            "Dr. Ranjith Kumar completed his MBBS from Madras Medical College, Chennai. Following which, he underwent training in Internal Medicine at the University Hospital of Hartlepool and obtained MRCP(UK). A career in higher specialist training in Geriatric and Internal Medicine awaited him at the Northern Deanery, University of Newcastle, UK.",
+            "During his training, he gained experience in various specialties of Geriatric Medicine and Internal Medicine at esteemed hospitals including James Cook University Hospital in Middlesbrough, Royal Sunderland Hospitals in Sunderland, University Hospital of North Tees in Stockton, Royal Victoria Hospitals in Newcastle, and Darlington Memorial Hospitals in Darlington.",
+            "After successfully completing his training, Dr.Ranjith was appointed as a Consultant at the University Hospital of Hartlepool, UK in 2005. He joined Apollo Hospitals, Chennai, as a Consultant in 2007 and took the initiative to establish Outpatient Geriatric Services at Westside Clinic, Anna Nagar, in the year 2010.",
+            "Dr.Ranjith's journey has equipped him with valuable skills and expertise in the field of Geriatric Medicine and Internal Medicine and helped him garner training for his professional roles in the UK and in India."
+          ],
+          "columns": {
+            "education": [
+              "MBBS(1995) from prestigious Madras Medical College",
+              "MRCP(UK)(2000) from Royal College of Physicians UK",
+              "UK Board Certification in Internal Medicine",
+              "UK Board Certification in Geriatric Medicine(2005)"
+            ],
+            "experience": [
+              "Specialist Registrar Internal Medicine & Geriatrics, Newcastle UK(2001)",
+              "Consultant Physician & Geriatrician, University Hospital North Tees & Hartlepool UK(2005)",
+              "Consultant Physician & Geriatrician, Apollo Hospitals, Chennai(2007 - Present)"
+            ],
+            "affiliation": [
+              "Indian Academy of Geriatrics(Secretary 2019 - 2022)",
+              "British Geriatrics Society",
+              "Royal College of Physicians, UK"
+            ]
+          }
+        }
+      };
+
+
+      // Get doctor ID from URL parameter (e.g., ?doctor=rajesh-kumar)
+      // Default to "rajesh-kumar" if not provided
+      
+      const urlParams = new URLSearchParams(window.location.search);
+      const doctorId = urlParams.get('doctor') || 'rajesh-kumar';
+
+
+      const app = document.getElementById('doctorApp');
+      const doctor = doctorsData[doctorId];
+
+      if (!doctor) {
+        // Show error if doctor not found
+        app.innerHTML = `
+          <div class="error-state">
+            <h2>Doctor Not Found</h2>
+            <p>The doctor profile you are looking for does not exist.</p>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">Available profiles: 
+              ${Object.keys(doctorsData).map(id => `<a href="?doctor=${id}" style="color:#ff138e;">${id}</a>`).join(', ')}
+            </p>
+          </div>
+        `;
+        return;
+      }
+
+      // Build HTML from the doctor data
+      app.innerHTML = `
+        <!-- HERO SECTION -->
+        <section class="doctor-hero">
+          <div class="doctor-hero__bg">
+            <img alt="${doctor.name}" class="doctor-hero__img" src="../assets/images/doctorhero.png">
+          </div>
+          <h1 class="doctor-hero__title">${doctor.name}</h1>
+          <div class="doctor-hero__wave">
+            <img alt="" width="1920" height="206" decoding="async" data-nimg="1" class="doctor-hero__wave-img" style="color:transparent" src="../assets/images/Vector1.png">
+          </div>
+        </section>
+
+        <!-- LAYOUT -->
+        <section class="doctor-detail-layout">
+          <div class="doctor-detail-layout__container">
+
+            <!-- MAIN PROFILE -->
+            <div class="doctor-profile">
+              <div class="doctor-profile__summary">
+                <div class="doctor-profile__photo">
+                  <img alt="" class="doctor-profile__photo-img" src="">
+                  <img alt="${doctor.name}" loading="lazy"
+                                                decoding="async" data-nimg="fill" class="doctor-profile__photo-img"
+                                                style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                                sizes="180px"
+                                                src="${doctor.photo}">
+                </div>
+                <div class="doctor-profile__summary-info">
+                  <h1 class="doctor-profile__name">${doctor.name}</h1>
+                  <p class="doctor-profile__role">${doctor.role}</p>
+                  <ul class="doctor-profile__meta">
+                    <li>
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                          viewBox="0 0 384 512" class="doctor-profile__meta-icon"
+                          height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M173.8 5.5c11-7.3 25.4-7.3 36.4 0L228 17.2c6 3.9 13 5.8 20.1 5.4l21.3-1.3c13.2-.8 25.6 6.4 31.5 18.2l9.6 19.1c3.2 6.4 8.4 11.5 14.7 14.7L344.5 83c11.8 5.9 19 18.3 18.2 31.5l-1.3 21.3c-.4 7.1 1.5 14.2 5.4 20.1l11.8 17.8c7.3 11 7.3 25.4 0 36.4L366.8 228c-3.9 6-5.8 13-5.4 20.1l1.3 21.3c.8 13.2-6.4 25.6-18.2 31.5l-19.1 9.6c-6.4 3.2-11.5 8.4-14.7 14.7L301 344.5c-5.9 11.8-18.3 19-31.5 18.2l-21.3-1.3c-7.1-.4-14.2 1.5-20.1 5.4l-17.8 11.8c-11 7.3-25.4 7.3-36.4 0L156 366.8c-6-3.9-13-5.8-20.1-5.4l-21.3 1.3c-13.2 .8-25.6-6.4-31.5-18.2l-9.6-19.1c-3.2-6.4-8.4-11.5-14.7-14.7L39.5 301c-11.8-5.9-19-18.3-18.2-31.5l1.3-21.3c.4-7.1-1.5-14.2-5.4-20.1L5.5 210.2c-7.3-11-7.3-25.4 0-36.4L17.2 156c3.9-6 5.8-13 5.4-20.1l-1.3-21.3c-.8-13.2 6.4-25.6 18.2-31.5l19.1-9.6C65 70.2 70.2 65 73.4 58.6L83 39.5c5.9-11.8 18.3-19 31.5-18.2l21.3 1.3c7.1 .4 14.2-1.5 20.1-5.4L173.8 5.5zM272 192a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM1.3 441.8L44.4 339.3c.2 .1 .3 .2 .4 .4l9.6 19.1c11.7 23.2 36 37.3 62 35.8l21.3-1.3c.2 0 .5 0 .7 .2l17.8 11.8c5.1 3.3 10.5 5.9 16.1 7.7l-37.6 89.3c-2.3 5.5-7.4 9.2-13.3 9.7s-11.6-2.2-14.8-7.2L74.4 455.5l-56.1 8.3c-5.7 .8-11.4-1.5-15-6s-4.3-10.7-2.1-16zm248 60.4L211.7 413c5.6-1.8 11-4.3 16.1-7.7l17.8-11.8c.2-.1 .4-.2 .7-.2l21.3 1.3c26 1.5 50.3-12.6 62-35.8l9.6-19.1c.1-.2 .2-.3 .4-.4l43.2 102.5c2.2 5.3 1.4 11.4-2.1 16s-9.3 6.9-15 6l-56.1-8.3-32.2 49.2c-3.2 5-8.9 7.7-14.8 7.2s-11-4.3-13.3-9.7z">
+                          </path>
+                      </svg>
+                      <span class="doctor-profile__meta-label">Experience</span>
+                      <span class="doctor-profile__meta-value">${doctor.meta.experience}</span>
+                    </li>
+                    <li>
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 640 512" class="doctor-profile__meta-icon"
+                        height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9l0 28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5l0-24.6c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z">
+                        </path>
+                      </svg>
+                      <span class="doctor-profile__meta-label">Education</span>
+                      <span class="doctor-profile__meta-value">${doctor.meta.education}</span>
+                    </li>
+                    <li>
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 512 512" class="doctor-profile__meta-icon"
+                        height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M352 256c0 22.2-1.2 43.6-3.3 64l-185.3 0c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64l185.3 0c2.2 20.4 3.3 41.8 3.3 64zm28.8-64l123.1 0c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64l-123.1 0c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32l-116.7 0c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0l-176.6 0c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0L18.6 160C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192l123.1 0c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64L8.1 320C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6l176.6 0c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352l116.7 0zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6l116.7 0z">
+                        </path>
+                      </svg>
+                      <span class="doctor-profile__meta-label">Languages</span>
+                      <span class="doctor-profile__meta-value">${doctor.meta.languages}</span>
+                    </li>
+                    <li>
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 384 512" class="doctor-profile__meta-icon"
+                        height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z">
+                        </path>
+                      </svg>
+                      <span class="doctor-profile__meta-label">Locations</span>
+                      <span class="doctor-profile__meta-value">${doctor.meta.locations}</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <hr class="doctor-profile__divider">
+
+              <h2 class="doctor-profile__section-title">Doctor's Profile</h2>
+              ${doctor.profileParagraphs.map(p => `<p class="doctor-profile__paragraph">${p}</p>`).join('')}
+
+              <div class="doctor-profile__columns">
+                <div class="doctor-profile__column">
+                  <h3>Education</h3>
+                  <ul>
+                    ${doctor.columns.education.map(item => `<li>${item}</li>`).join('')}
+                  </ul>
+                </div>
+                <div class="doctor-profile__column">
+                  <h3>Experience</h3>
+                  <ul>
+                    ${doctor.columns.experience.map(item => `<li>${item}</li>`).join('')}
+                  </ul>
+                </div>
+                <div class="doctor-profile__column">
+                  <h3>Affiliation</h3>
+                  <ul>
+                    ${doctor.columns.affiliation.map(item => `<li>${item}</li>`).join('')}
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- SIDEBAR -->
+            <aside class="doctor-sidebar">
+              <div class="doctor-sidebar__why-card">
+                <h2 class="doctor-sidebar__why-title">Why Choose Imayam?</h2>
+                <p class="doctor-sidebar__why-desc">Imayam Nursing Services has been providing professional home healthcare services across Chennai since 2013.</p>
+                <ul class="doctor-sidebar__feature-list">
+                  <li class="doctor-sidebar__feature">
+                    <span class="doctor-sidebar__feature-number">1</span>
+                    <div>
+                      <h3>Affordable Packages</h3>
+                      <p>Flexible care plans for every family.</p>
+                    </div>
+                  </li>
+                  <li class="doctor-sidebar__feature">
+                    <span class="doctor-sidebar__feature-number">2</span>
+                    <div>
+                      <h3>Quick Service</h3>
+                      <p>Caregivers available within hours.</p>
+                    </div>
+                  </li>
+                  <li class="doctor-sidebar__feature">
+                    <span class="doctor-sidebar__feature-number">3</span>
+                    <div>
+                      <h3>24/7 Support</h3>
+                      <p>Round-the-clock assistance whenever needed.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="doctor-sidebar__helpline-card">
+                <h3 class="doctor-sidebar__helpline-title">Support Helpline</h3>
+                <p class="doctor-sidebar__helpline-desc">Have questions? Reach out to our dedicated support team.</p>
+                <a href="tel:+919876543210" class="doctor-sidebar__helpline-number">
+                  <svg stroke="currentColor"
+                      fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="12"
+                      width="12" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z">
+                      </path>
+                  </svg> +91 98765 43210
+                </a>
+              </div>
+
+              <div class="doctor-sidebar__form-card">
+                <div class="doctor-sidebar__form-header">
+                  <span class="doctor-sidebar__form-icon"><svg stroke="currentColor"
+                    fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M256 448c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9zM128 208a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm128 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm96 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z">
+                    </path>
+                    </svg></span>
+                  <div>
+                    <h2 class="doctor-sidebar__form-title">Enquire Now</h2>
+                    <p class="doctor-sidebar__form-subtitle">We will get back to you as soon as possible.</p>
+                  </div>
+                </div>
+                <form class="doctor-sidebar__form" onsubmit="event.preventDefault(); alert('Enquiry submitted (demo).');">
+                  <div class="doctor-sidebar__form-row">
+                    <div class="doctor-sidebar__form-field">
+                      <label for="side-name">Your Name <span class="doctor-sidebar__required">*</span></label>
+                      <input id="side-name" placeholder="Enter Your Name" required type="text" name="name">
+                    </div>
+                    <div class="doctor-sidebar__form-field">
+                      <label for="side-mobile">Mobile Number <span class="doctor-sidebar__required">*</span></label>
+                      <input id="side-mobile" placeholder="Enter Mobile Number" required type="tel" name="mobile">
+                    </div>
+                  </div>
+                  <div class="doctor-sidebar__form-row">
+                    <div class="doctor-sidebar__form-field">
+                      <label for="side-email">Email Address <span class="doctor-sidebar__required">*</span></label>
+                      <input id="side-email" placeholder="Enter Email Address" required type="email" name="email">
+                    </div>
+                    <div class="doctor-sidebar__form-field">
+                      <label for="side-service">Service Required <span class="doctor-sidebar__required">*</span></label>
+                      <select id="side-service" name="service" required>
+                        <option value="" disabled selected>Select Service</option>
+                        <option value="home-nursing">Home Nursing Care</option>
+                        <option value="elderly-care">Elderly Care</option>
+                        <option value="physiotherapy">Physiotherapy</option>
+                        <option value="patient-attendant">Patient Attendant</option>
+                        <option value="doctor-visit">Doctor Home Visit</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="doctor-sidebar__form-field">
+                    <label for="side-message">Message</label>
+                    <input id="side-message" placeholder="Type your message here..." type="text" name="message">
+                  </div>
+                  <button type="submit" class="doctor-sidebar__submit">
+                    Submit
+                    <span class="doctor-sidebar__submit-arrow">
+                      <svg stroke="currentColor"
+                        fill="currentColor" stroke-width="0" viewBox="0 0 320 512"
+                        height="13" width="13" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z">
+                        </path>
+                        </svg>
+                    </span>
+                  </button>
+                </form>
+              </div>
+            </aside>
+
+          </div>
+        </section>
+      `;
+    })();
+  </script>
+</body>
+
+</html>
